@@ -1,0 +1,284 @@
+/* Core styles */
+.container { 
+    width: 1140px;
+    margin:0 auto;}
+
+body { font-family: sans-serif;}
+
+.clearfix { clear: both;}
+
+.to-uppercase {text-transform: uppercase;}
+
+.section__subtitle { 
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 10px;
+color:#888888;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.section__title {
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.button {border:none;
+background-color: blue;
+color:white;
+font-weight: 500;
+font-size: 14px;
+padding:20px 40px;
+cursor: pointer;
+border-radius: 5px;}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 5px;
+    filter: blur(4px);
+    background-color:rgba(237, 35, 159, 0.6);
+}
+
+/* Main heder styles */
+.main-header__brand { 
+display: inline-block;
+vertical-align: middle;
+}
+
+.main-header__brand img { 
+width: 64px;
+border-radius: 50%;
+}
+
+.main-navigation { 
+display: inline-block;
+vertical-align: middle;
+}
+
+.main-navigation__item { 
+display: inline-block;
+padding: 10px;
+}
+.main-navigation__item a { 
+    color:grey;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.main-navigation__item a:hover {color: pink;}
+
+.main-navigation__item.active a { color:pink;}
+
+/* Main Section styles */
+
+.main-section {padding:100px 30px;}
+
+.main-section > div {
+     width:50%;
+     float:left;}
+
+.main-section__image { 
+    text-align:right;
+ }
+
+.main-section__welcome 
+{color:#8f9193;
+letter-spacing: 2px;
+font-size: 16px; 
+font-weight:400; 
+margin-bottom: 20px;
+}
+
+.main-section__introduction
+{font-size: 60px; 
+font-weight: 500;
+color:#212529;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.main-section__position
+{font-weight: 300;
+font-size: 24px;
+margin-bottom: 20px;
+color:#212529
+}
+
+/* Main-section__social-Network style */
+
+.main-section__social-networks a { 
+    font-size: 20px;
+    margin-right: 16px;
+    display: inline-block;
+    cursor: pointer;
+    color:#53bff6;
+}
+.main-section__social-networks a:hover i {color:blueviolet;}
+
+.main-section__action 
+{margin-top: 30px;
+}
+
+/* Statistics styles */
+.statistics {padding-top: 100px;}
+
+.statistics__item {
+     display: inline-block;
+     background-color: #f3f3f3;
+     text-align: center;
+     padding: 5px 10px;
+     margin-right: 20px;
+     width: 150px;
+}
+
+.statistics__number {
+color:#06bcd4;
+font-size: 27px;
+margin-bottom: 5px;
+}
+
+.statistics__title {
+    font-size: 15px;
+    color:#06bcd4;
+    font-weight: 300px;
+}
+
+/*  About Me section */
+ .about-me {
+    padding:100px 0;
+ }
+
+ .about-me > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+ }
+
+ .about-me__image img {
+    width: 90%;
+ }
+
+ .about-me__info {
+    width: 100%;
+    margin-top: 50px;
+ }
+
+ .about-me__subtitle {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    color:#888888;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+ }
+
+ .about-me__position {
+    margin-top: 4px;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about-me__description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    color:#888888;
+}
+
+.about-me__action { margin-top: 30px;}
+
+
+/* Services section styles */
+.services {padding-top: 100px;}
+
+.services__items { margin-top: 50px;}
+
+.services__item {
+    padding: 60px 30px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin-right:3%;
+    background-color: #f9faff;
+    box-sizing: border-box;
+}
+
+.services__title {
+    font-size: 20px;
+    font-weight: 700;
+    color:#04364d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+
+    .services__description {
+        font-size: 16px;
+        font-weight: 300;
+        color:rgb(136, 136, 136);
+        line-height: 27px;
+    }
+
+.services__link {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#04364d;
+}
+.services__item:hover {background-color:#5f30ff ;}
+
+.services__item:hover .services__description,
+.services__item:hover .services__link,
+.services__item:hover .services__title { color:#ffffff; }
+
+/* Clients section style */
+.clients {
+    padding-top: 70px;
+}
+
+.clients div {
+    width: 50%;
+    float: left;
+}
+
+.clients-images { margin-top: 50px;}
+
+.client-photo { 
+    width: 60%;
+}
+
+.clients-info { 
+margin-top: 50px;
+}
+
+.client-name {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#212529;
+    margin-bottom: 3px;
+}
+
+.client-position {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.client-review {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color:rgb(136, 136, 136);
+}
+
+.client-rate {
+    color:#ffd804;
+    text-decoration: none;
+}
