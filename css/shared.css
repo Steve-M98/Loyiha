@@ -89,7 +89,7 @@ body {
   width: 60px;
   border-radius: 50%;
 }
-
+/* Main navigation styles */
 .main-navigation {
   display: inline-block;
   vertical-align: middle;
@@ -112,4 +112,57 @@ body {
 
 .main-navigation__item.active a {
   color: pink;
+}
+/* Footer styles */
+.footer {
+  padding: 50px;
+  text-align: center;
+  background-color: #838dea;
+}
+
+.footer-brand img {
+  width: 128px;
+  border-radius: 50%;
+}
+.footer-navigation-item {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer-social {
+  padding-top: 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-social a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 36px;
+  color: #05364d;
+  font-size: 16px;
+  margin-right: 12px;
+  text-decoration: none;
+}
+.footer-social a:hover {
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 0%);
+  background-size: 198% auto;
+}
+
+.footer-social a:hover {
+  color: white;
+}
+
+.footer-text {
+  text-align: center;
+  color: beige;
+  margin-top: 50px;
 }
